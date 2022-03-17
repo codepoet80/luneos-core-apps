@@ -8,6 +8,7 @@
     "icon"           : "icon.png",
     "splashicon"     : "icon-256x256.png",
     "noWindow"       : true,
+    "trustLevel"     : "trusted",
     "uiRevision"     : 2,
     "mimeTypes"      : [
         {

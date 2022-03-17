@@ -8,6 +8,7 @@
     "removable": false,
     "uiRevision": 2,
     "main": "index.html",
+    "trustLevel" : "trusted",
     "vendor": "HP",
     "universalSearch": {
         "action": {

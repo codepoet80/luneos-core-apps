@@ -9,6 +9,7 @@
     "icon"           : "images/icon-256x256.png",
     "type"           : "web",
     "removable"      : false,
+    "trustLevel"     : "trusted",
     "keywords"       : ["Anniversaries", "Appointments", "Birthdays", "Datebook", "Events", "Meetings", "Reminders"],
     "universalSearch": {
         "action"  : {

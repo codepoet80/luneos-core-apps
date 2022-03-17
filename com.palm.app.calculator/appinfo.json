@@ -6,6 +6,7 @@
 	"main": "index.html",
 	"title": "Calculator",
 	"icon": "icon.png",
+	"trustLevel": "trusted",
 	"uiRevision": "2",
 	"removable": false
 }
