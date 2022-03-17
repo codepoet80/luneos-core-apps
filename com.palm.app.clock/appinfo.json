@@ -12,5 +12,5 @@
 	"debug": false,
 	"removable": false,
 	"trustLevel" : "trusted",
-	"requiredPermissions": ["applications.internal", "applications", "activities.manage", "devices", "settings", "settings.read", "services", "database", "database.internal", "filecache", "system", "networking", "networking.internal", "time", "activities.manage", "media"]
+	"requiredPermissions": ["application.launcher", "activity.operation", "settings.read", "database.operation"]
 }
