@@ -86,7 +86,7 @@ enyo.kind({
                 },
                 "schedule"   : {"start": dateString},
                 "callback"   : {
-                    "method": "palm://com.palm.applicationManager/launch",
+                    "method": "luna://com.webos.service.applicationManager/launch",
                     "params": {
                         "id"    : "com.palm.app.calendar",
                         "params": {"dayChange": true}
