@@ -9,5 +9,5 @@
     "icon"      : "icon.png",
     "removable" : false,
     "trustLevel" : "trusted",
-    "requiredPermissions": ["applications.internal", "applications", "activities.manage", "devices", "settings", "settings.read", "services", "database", "database.internal", "filecache", "system", "networking", "networking.internal"]
+    "requiredPermissions": ["accountsservice.management", "accountsservice.operation", "application.launcher", "activity.operation", "contactslinker-service.operation", "contacts-service.operation", "database.management", "database.operation", "settings.read", "tempdatabase.management", "tempdatabase.operation"]
 }
