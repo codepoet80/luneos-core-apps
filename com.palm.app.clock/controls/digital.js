@@ -32,7 +32,7 @@ if(parseInt(hour) < 10) {
 
 enyo.kind({
 	name: "Digital",
-	width:"745px",
+	width:"100%",
 	className: "digitalClock digital",
 	kind: "VFlexBox",
 	pack: 'center',

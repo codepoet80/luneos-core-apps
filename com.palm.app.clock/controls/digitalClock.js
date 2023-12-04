@@ -29,8 +29,7 @@ if(parseInt(hour) < 10) {
 
 enyo.kind({
 	name: 'layout.digitalClock',
-	height: '550px',
-	width:'810px',
+	width:'100%',
 	className: 'digitalClock digital',
 	kind: 'VFlexBox',
 	components: [
