@@ -29,7 +29,7 @@ enyo.kind({
 			{kind: enyo.Image, src: "images/menu-icon-alarm.png", style: "margin-top: -3px;"},
 			{content: $L("Alarms")}
 		]},
-			{kind: "Control", width: "500px", height: "70%", className: "alarms", components: [
+			{kind: "Control", width: "100%", height: "70%", className: "alarms", components: [
 				{name: "lblEmpty", showing: "false", content: $L("No Alarms"), style:''},
 				{name: "listAlarms", kind: "VirtualList", height: "100%", className: 'enyo-group enyo-roundy', onSetupRow: "listSetupRow", components: [
 					{name: "itemAlarm", kind: "SwipeableItem", onConfirm: "onConfirmDelete_itemAlarm", components: [
@@ -43,7 +43,7 @@ enyo.kind({
 					]} 
 				]},
 				{name: "lblWarning", content: $L("Test version: Alarms are not enabled at system level."), style: "color: red;", showing: false},
-				{name: "btnNewAlarm", kind: "Button", caption: $L("New Alarm"), style: "width:320px;margin: 20px auto 0 auto", onclick: "onclick_btnNewAlarm"}
+				{name: "btnNewAlarm", kind: "Button", caption: $L("New Alarm"), style: "margin: 20px 20px 20px 20px", onclick: "onclick_btnNewAlarm"}
 			]},
 		{name: "diagAlarmEdit", kind: "ModalDialog", caption: $L("Alarm Preferences"), components: [
 			{name: "alarmEdit", kind: "AlarmEdit", onCancel:"onCancel_alarmEdit", onDone: "onDone_alarmEdit"}

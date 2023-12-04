@@ -28,7 +28,7 @@ enyo.kind({
 			{content: $L("Preferences"), className:""}
 		]},
 		{className:"accounts-header-shadow"},
-		{style: "width: 480px; margin: 0 auto 0 auto;", components: [
+		{style: "width: 100%; margin: 0 auto 0 auto;", components: [
 
 			{name:"contentScroller", kind: "Scroller", flex: 1, components: [
 			]},
