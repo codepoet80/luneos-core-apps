@@ -176,15 +176,23 @@
 }
 
 .digital .date {
-	width: 6vmin;
+	width: 4vmin;
 	text-align: center;
-	font-size:8vmin;
+	font-size:5vmin;
 	position:relative;
 	border-width: 7px;
-	left: 9vmin;
+	left: 7.0vmin;	/*moves the face*/
 	border-style: solid;
-	margin-left:-9vmin;
+	margin-left:-7.0vmin; /* spaces out each character */
 	-webkit-border-image: url(../images/Date_Flipper_Landscape.png) 7;
+}
+
+.digit-date-overlay {
+	position: relative;
+	left: -0.5vmin;	/*moves the overlay*/
+	height: 100px;
+	width: 7.2vmin; /* spaces out each character AND the overlay*/
+	top: 1vmin;
 }
 
 .digital .digit {
@@ -213,12 +221,4 @@
 	padding:0px;
 	margin-left: -10px;
 	margin-right: -10px;
-}
-
-.digit-date-overlay {
-	position: relative;
-	left: 0vmin;
-	height: 100px;
-	width: 9vmin;
-	top: 1vmin;
 }
